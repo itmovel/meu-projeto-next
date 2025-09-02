@@ -1,0 +1,66 @@
+/* styles/Home.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/wind-turbine.jpg) no-repeat center center;
+  background-size: cover;
+  color: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-top: 0;
+}
+
+.ctaButton {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.infoSection h3 {
+  margin-bottom: 0.5rem;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 1rem;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.stepNumber {
+  border: 1px solid var(--primary-blue);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  color: var(--primary-blue);
+  font-weight: bold;
+}
+
+.map {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

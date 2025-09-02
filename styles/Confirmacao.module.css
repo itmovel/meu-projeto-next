@@ -1,0 +1,37 @@
+/* styles/Confirmacao.module.css */
+.container {
+  background-color: var(--white);
+  padding: 3rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 70vh;
+}
+
+.successIcon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--success-green);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.container p {
+  color: var(--light-text);
+  line-height: 1.5;
+  max-width: 300px;
+}
